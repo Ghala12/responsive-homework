@@ -1,0 +1,37 @@
+/* Mobile View */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+div {
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Tablet View - 772px */
+@media screen and (min-width: 772px) {
+    body div {
+        width: 45vw;
+        float: left;
+        margin: 2.5%;
+    }
+    
+    body div img {
+        max-height: 30vh;
+    }
+}
+
+/* Large Screen View - 998px */
+@media screen and (min-width: 998px) {
+    body div {
+        width: 30vw;
+    }
+}
